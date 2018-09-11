@@ -22,7 +22,7 @@
 		<h2>성별:<%=request.getParameter("stud_gender")%>,
 			비밀번호:<% String [] uHobby =request.getParameterValues("stud_hobby")%>
 		<% if(uHobby==null){
-		out.println("입력내없음");
+		out.println("입력내용없음");
 		}
 		else{
 			for(int i=0;i<uHobby.length;i++){
